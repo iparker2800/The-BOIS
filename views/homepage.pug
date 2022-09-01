@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+        h1 Welcome to UMovie!!
+        h2 Popular Movies 
+        ul
+            each movies, i in list_of_movies 
+                li=movies.title
+                //li=movies.director
+                //li=movies.cast
