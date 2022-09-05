@@ -2,16 +2,13 @@
 
 name: CI
 
-
-## Triggers on all branches for now
-
 # Controls when the workflow will run
-#on:
+on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
-  #push:
-    #branches: [ "bobby" ]
-  #pull_request:
-    #branches: [ "master" ]
+  push:
+    branches: [ "bobby", "isaiah", "spencer", "Omar" ]
+  pull_request:
+    branches: [ "master" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
