@@ -21,5 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: docker build -t "the-bois:Dockerfile" .
-      - run: docker run --name deploy -dp 3000:3000 the-bois:Dockerfile 
+      - run: node --version
+#      - run: docker build -t "the-bois:Dockerfile" .
+#      - run: docker run --name deploy -dp 3000:3000 the-bois:Dockerfile 
