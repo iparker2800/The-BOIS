@@ -13,5 +13,13 @@
     "node-themoviedb": "^0.2.8",
     "nodemon": "^2.0.19",
     "pug": "^3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iparker2800/The-BOIS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iparker2800/The-BOIS/issues"
+  },
+  "description": ""
 }
