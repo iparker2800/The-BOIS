@@ -63,6 +63,7 @@ app.listen(port, function() {
 
   /*
 var http = require("http");
+
 //create a server object:
 http
   .createServer(function (req, res) {
@@ -95,7 +96,6 @@ const mdb = new MovieDB("e9469a1940ea2b84fcf938f51e083e07");
       poster: movie.data.poster_path,
       trailer: trailer.data.results[0].key
     };
-    console.log(tenet);
     /*
       {
         data: Object. Parsed json data of response
