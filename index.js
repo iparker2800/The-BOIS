@@ -31,7 +31,6 @@ const MovieDB = require('node-themoviedb');
 // ES6 Style
 // import MovieDB from 'node-themoviedb';
 const mdb = new MovieDB('076f8ddce1b5e3eab478fe0eeeb71153');
-
 (async () => {
   try {
     const args = {
@@ -63,7 +62,6 @@ app.listen(port, function() {
 
 
   /*
-
 var http = require("http");
 
 //create a server object:
@@ -73,12 +71,10 @@ http
     res.end(); //end the response
   })
   .listen(8080); //the server object listens on port 8080
-
 */
 /*
 const MovieDB = require("node-themoviedb");
 const mdb = new MovieDB("e9469a1940ea2b84fcf938f51e083e07");
-
 (async () => {
   try {
     const args = {
@@ -89,7 +85,6 @@ const mdb = new MovieDB("e9469a1940ea2b84fcf938f51e083e07");
     const movie = await mdb.movie.getDetails(args);
     const trailer = await mdb.movie.getVideos(args);
     // console.log(trailer.data);
-
     const tenet = {
       id: movie.data.id,
       name: movie.data.title,
@@ -101,9 +96,6 @@ const mdb = new MovieDB("e9469a1940ea2b84fcf938f51e083e07");
       poster: movie.data.poster_path,
       trailer: trailer.data.results[0].key
     };
-
-    console.log(tenet);
-
     /*
       {
         data: Object. Parsed json data of response
