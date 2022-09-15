@@ -10,7 +10,6 @@ app.set('view engine', 'pug');
 
 app.use(express.static(path.join(__dirname, "public")));
 
-
 // 'Home' Route
 app.get('/', function(req, res){
   res.render('homepage');
