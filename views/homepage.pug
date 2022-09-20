@@ -3,18 +3,35 @@ extends layout
 
 block content 
         
-        h1 CineSearch
-        img(id='logo1' src='logo.png' alt='logo')
-
         div(class="topnav")
+                a(class="active" href="#home") User
+                a(href="#news") Categories
+                a(href="#about") About 
+                a(href="#review") Write a Review
+                h1(id="HomepageHeader") CineSearch
+        
+        link(rel="stylesheet" href="https://www.webnots.com/resources/font-awesome/css/font-awesome.min.css")
+        div(class="features")
+                h2(id="forthepeople") Love Movies? CineSearch is for you!
+                div(class="webnots-information webnots-notification-box")
+                        text Look up thousands of movies across all streaming platforms
+                div(class="webnots-information webnots-notification-box")
+                        text Provides honest feedback from real users
+                div(class="webnots-information webnots-notification-box")
+                        text Creates recommendations based on movies you have watched before 
+                div(class="webnots-information webnots-notification-box")
+                        text Don't know where to watch a movie? CineSearch will list all of the available streaming services 
+
+        div(class="middlenav")
+                img(id='logo1' src='logo.png' alt='logo')
                 form(id="form" role="search")
                         input(type="search" id="query" name="q" placeholder="Search for Movies" aria-label="Search through site content")
                         button 
                                 svg(viewBox="0 0 1024 1024")
                                         path(class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z")
-    
-        div(id="TMDBOutput")
 
-
-        script(src="api_scripts/TMDBapi.js") 
-        script(src="api_scripts/home.js") 
+        div(class="moviecategories")
+                header(class="main")
+                
+                script(src="api_scripts/TMDBapi.js") 
+                script(src="api_scripts/home.js") 
