@@ -1,22 +1,45 @@
-fetch(popular_movies + new URLSearchParams({
-    api_key: APIKEY
-  }))
-  .then(res => res.json())
-  .then(data => {
-    data.results.forEach(item => {
-        fetchPopMovies(item.poster_path)
-    })
-  })
+const main = document.querySelector('.main');
 
-  const fetchPopMovies = (poster_path) => {
-    fetch(baseImageURL + new URLSearchParams({
-      
+fetch(genres_list_http + new URLSearchParams({
+    api_key: APIKEY
+}))
+.then(res => res.json())
+.then(data => {
+    data.genres.forEach(item => {
+        fetchMoviesListByGenres(item.id, item.name);
+    })
+});
+
+const fetchMoviesListByGenres = (id, genres) => {
+    fetch(movie_genres_http + new URLSearchParams({
+        api_key: APIKEY,
+        with_genres: id,
     }))
     .then(res => res.json())
-  }
+    .then(data => {
+        makeCategoryElement(`${genres}_movies`, data.results);
+    })
+    .catch(err =>  console.log(err));
+}
 
-  const makeMoviePosters = (poster_path) => {
-    data.forEach((item) => {
+const makeCategoryElement = (category, data) => {
+    main.innerHTML += `
+    <div class="movie-list">
+
+        <h1 class="movie-category">${category.split("_").join(" ")}</h1>
+
+        <div class="movie-container" id="${category}">
+
+        </div>
+
+    </div>
+    `;
+    makeCards(category, data);
+}
+
+const makeCards = (id, data) => {
+    const movieContainer = document.getElementById(id);
+    data.forEach((item, i) => {
         if(item.backdrop_path == null){
             item.backdrop_path = item.poster_path;
             if(item.backdrop_path == null){
@@ -26,9 +49,10 @@ fetch(popular_movies + new URLSearchParams({
 
         movieContainer.innerHTML += `
         <div class="movie" onclick="location.href = '/${item.id}'">
-            <img src="${baseImageURL}${item.backdrop_path}" alt="">
+            <img src="${img_url}${item.backdrop_path}" alt="">
             <p class="movie-title">${item.title}</p>
         </div>
         `;
+
     })
-  }
+}

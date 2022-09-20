@@ -15,16 +15,10 @@ app.get('/', function(req, res){
   res.render('homepage');
 })
 
-// 'Add a movie' Route
-app.get('/movies/add', function(req, res){
-  res.render('addmovie')
+// 'About' Route
+app.get('/About', function(req, res){
+  res.render('About')
 })
-
-// 'Add Route'
-app.get('/movies/categories', function(req, res){
-  res.render('categories')
-})
-
 
 
 // Start the server
