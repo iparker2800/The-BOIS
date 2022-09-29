@@ -283,3 +283,12 @@ svg {
   height: 20px;
   overflow: hidden;
 }
+#featureheading{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: rgb(226, 226, 88);
+}
+
