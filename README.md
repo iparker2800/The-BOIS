@@ -1,9 +1,16 @@
 README for CineSearch
 
 
+Potential Names:
+
+FilmFinder
+
+
+
+
 Product Description:
 
-CineSearch is a user-friendly webpage that allows for users to quickly find ratings
+CineSearch is a user-friendly web app that allows for users to quickly find ratings
 on the most popular movies and shows of today as well as the locations to view these productions.
 In addition, users can create a portfolio containing their favorite shows and movies with
 which CineSearch will construct the optimal streaming service payment plan for users. 
@@ -11,10 +18,11 @@ which CineSearch will construct the optimal streaming service payment plan for u
 
 Intended Audience:
 
-CineSearch is aimed towards all people who enjoy watching films. CineSearch is designed to allow these
-users to quickly find entertainment curated to their likings. With CineSearch's ability to create an 
-affordable streaming-payment bundle, CineSearch would also be directed towards those who are wanting
-to save some extra cash on their membership costs. 
+CineSearch is aimed towards movie buffs who are in need of finding films worth watching.
+CineSearch is designed to allow these users to quickly find movies curated to their
+likings. In the future, we hope to enable CineSearch to create affordable streaming-payment 
+bundles composed of the top streaming services that would allow for the user to watch all of
+their desired movies at the cheapest rate. 
 
 
 Primary Features:
@@ -29,14 +37,12 @@ Primary Features:
 
 Product Vision:
 
-CineSearch is the ideal app for all people who are looking to find the perfect movie or series
-for any occasion. CineSearch is the perfect entertainment companion app which enables users to quickly 
-find films based on their preferences. In addition, users can expect to find authentic testimonies for 
-all listed titles, including honest parental ratings, meaning that parents will no longer have to worry 
-about enduring uncomfortable scenes with their children. Unlike other apps, CineSearch is capable of 
-generating the most affordable personalized payment plan, composing the top streaming services which are 
-required to watch the user’s desired films. Through CineSearch, viewers will find links to their desired 
-films that will automatically redirect them to the corresponding streaming services. 
+FOR all people WHO are looking to find the perfect movie for any occasion. THE CineSearch 
+app is a Web-based service THAT enables users to find the viewing locations, reviews, and 
+viewing recommendations for the popular movies of today. UNLIKE other movie-review platforms,
+OUR product, CineSearch, is able to suggest movies for the user to watch based on their previous
+movie preferences.
+
 
 Status:
 
