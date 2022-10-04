@@ -6,17 +6,17 @@ html
         link(rel="stylesheet", href="style.css")
     body
         div(class="main") 
-            
-
+            block content
+   
         div(class="topnav")
-            a(class="active" href="#home") User
-            a(href="#news") Categories
+            a(href="/") Home
+            a(href="categories") Categories
             a(href="#about") About 
             a(href="#review") Write a Review
             h1(id="HomepageHeader") CineSearch
-
-        block content
         
+        br
+
         footer(id='footer1')
             hr
             p Copyright &copy; 2022 The-BOIS

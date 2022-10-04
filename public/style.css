@@ -56,7 +56,10 @@ h2{
   margin-left: 10px;
   color: rgb(255, 255, 255);
 }
+
 .features{
+  margin-right: 200px;
+  margin-left: auto;
   margin-top: 100px;
   margin-bottom: 150px;
 
@@ -92,6 +95,7 @@ h2{
   background-color: #3e3e3e;
   width: 300px;
   margin-left: 75px;
+  margin-right: auto;
   }
   .webnots-information:before {
   content: "\f129";
@@ -99,6 +103,16 @@ h2{
   }
 
 #logo1 { 
+  border-style: outset;
+  border-color: black;
+  max-width: 15%;
+  position: absolute;
+  margin-top: -5%;
+  margin-right: 750%;
+  margin-left: 75%;
+}
+
+#logo2 { 
   border-style: outset;
   border-color: black;
   max-width: 15%;
@@ -135,10 +149,23 @@ h2{
   color: slategrey;
 }
 
-form {
+#form1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: -350px;
+  background-color:rgb(241, 44, 44);
+  width: 450px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#form2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
   background-color:rgb(241, 44, 44);
   width: 450px;
   height: 55px;
@@ -291,4 +318,3 @@ svg {
   margin-top: 50px;
   color: rgb(226, 226, 88);
 }
-
