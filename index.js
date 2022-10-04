@@ -20,6 +20,11 @@ app.get('/About', function(req, res){
   res.render('About')
 })
 
+// 'About' Route
+app.get('/categories', function(req, res){
+  res.render('categories')
+})
+
 // 'Interview1' Route
 app.get('/Interview1', function(req, res){
   res.render('Interview1');
