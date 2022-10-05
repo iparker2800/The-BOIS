@@ -23,7 +23,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
       - name: Node Build
-        run: npm install
-        run: npm run build
+        run: npm install && npm run build
       - name: Uploading Artifacts  
         uses: actions/upload-artifact@v3
