@@ -26,4 +26,4 @@ jobs:
         run: npm install && npm run build
       - name: Uploading Artifacts  
         uses: actions/upload-artifact@v3
-        path: node_modules
+          path: node_modules
