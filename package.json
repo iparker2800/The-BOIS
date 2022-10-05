@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "dist.ps1"
+    "start": "nodemon index.js"
   },
   "author": "Bobby Gabriel, Omar Sayang, Isaiah Parker, Spencer Childers",
   "license": "ISC",
