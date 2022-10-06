@@ -27,37 +27,47 @@ app.get('/categories', function(req, res){
 
 // 'Interview1' Route
 app.get('/Interview1', function(req, res){
-  res.render('Interview1');
+  res.render('interviews/Interview1');
 })
 
 // 'Interview2' Route
 app.get('/Interview2', function(req, res){
-  res.render('Interview2');
+  res.render('interviews/Interview2');
 })
 
 // 'Interview3' Route
 app.get('/Interview3', function(req, res){
-  res.render('Interview3');
+  res.render('interviews/Interview3');
 })
 
 // 'Interview4' Route
 app.get('/Interview4', function(req, res){
-  res.render('Interview4');
+  res.render('interviews/Interview4');
 })
 
 // 'Interview5' Route
 app.get('/Interview5', function(req, res){
-  res.render('Interview5');
+  res.render('interviews/Interview5');
 })
 
-// 'personas' Route
-app.get('/personas', function(req, res){
-  res.render('personas');
+// 'persona1' Route
+app.get('/Persona1', function(req, res){
+  res.render('personas/Persona1');
 })
 
-// 'scenarios' Route
-app.get('/scenarios', function(req, res){
-  res.render('scenarios');
+// 'persona2' Route
+app.get('/Persona2', function(req, res){
+  res.render('personas/Persona2');
+})
+
+// 'scenario1' Route
+app.get('/Scenario1', function(req, res){
+  res.render('scenarios/Scenario1');
+})
+
+// 'scenario2' Route
+app.get('/Scenario2', function(req, res){
+  res.render('scenarios/Scenario2');
 })
 
 // 'user_stories' Route
