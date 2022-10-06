@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: windows-latest
     steps:
       - name: Checkout Repo
@@ -26,4 +26,5 @@ jobs:
       - name: Uploading Artifacts  
         uses: actions/upload-artifact@v3
         with:
+          name: dist-master
           path: dist
