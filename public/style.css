@@ -318,3 +318,13 @@ svg {
   margin-top: 50px;
   color: rgb(226, 226, 88);
 }
+
+.Interviewbutton{
+  background-color: rgb(241, 44, 44);
+  color: black;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 20px;
+}

@@ -80,9 +80,16 @@ app.get('/features', function(req, res){
   res.render('features');
 })
 
+// 'design artifacts' Route
+app.get('/design_artifacts', function(req, res){
+  res.render('design_artifacts');
+})
+
 
 
 // Start the server
 app.listen(port, function() {
     console.log(`app listening on http://localhost:${port}`);
   })
+
+  
