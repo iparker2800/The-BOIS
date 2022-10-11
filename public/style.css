@@ -327,4 +327,45 @@ svg {
   border-radius: 5px;
   text-align: center;
   padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+a { text-decoration: none; }
+
+#Interviewheader{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#Scenarioheader{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#Personaheader{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#userstoryheader{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#featureheader{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
 }
