@@ -369,3 +369,104 @@ a { text-decoration: none; }
   margin-left: 10px;
   color: rgb(255, 255, 255);
 }
+
+#personaformat{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  font-size: xx-large;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  color: rgb(255, 255, 255);
+  text-indent: 75px;
+}
+
+#scenario-title{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+#user-title{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-size: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+#userformat{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-size: xx-large;
+  font-style: italic;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgb(255, 255, 255);
+  text-indent: 75px;
+}
+
+#interview-title{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-size: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+#interviewformat{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgb(255, 255, 255);
+}
+
+#interview-answer{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  font-size: xx-large;
+  font-style: italic;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  color: rgb(255, 255, 255);
+}
+
+#feature-title{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgb(255, 255, 255);
+}
+
+#feature-format{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  font-size: xx-large;
+  font-style: italic;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgb(255, 255, 255);
+}

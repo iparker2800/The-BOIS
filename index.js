@@ -60,6 +60,11 @@ app.get('/Persona2', function(req, res){
   res.render('personas/Persona2');
 })
 
+// 'persona3' Route
+app.get('/Persona3', function(req, res){
+  res.render('personas/Persona3');
+})
+
 // 'scenario1' Route
 app.get('/Scenario1', function(req, res){
   res.render('scenarios/Scenario1');
@@ -68,6 +73,41 @@ app.get('/Scenario1', function(req, res){
 // 'scenario2' Route
 app.get('/Scenario2', function(req, res){
   res.render('scenarios/Scenario2');
+})
+
+// 'scenario3' Route
+app.get('/Scenario3', function(req, res){
+  res.render('scenarios/Scenario3');
+})
+
+// 'scenario4' Route
+app.get('/Scenario4', function(req, res){
+  res.render('scenarios/Scenario4');
+})
+
+// 'scenario5' Route
+app.get('/Scenario5', function(req, res){
+  res.render('scenarios/Scenario5');
+})
+
+// 'scenario6' Route
+app.get('/Scenario6', function(req, res){
+  res.render('scenarios/Scenario6');
+})
+
+// 'scenario7' Route
+app.get('/Scenario7', function(req, res){
+  res.render('scenarios/Scenario7');
+})
+
+// 'scenario8' Route
+app.get('/Scenario8', function(req, res){
+  res.render('scenarios/Scenario8');
+})
+
+// 'scenario9' Route
+app.get('/Scenario9', function(req, res){
+  res.render('scenarios/Scenario9');
 })
 
 // 'user_stories' Route
