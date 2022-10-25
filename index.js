@@ -40,15 +40,6 @@ app.get('/Interview3', function(req, res){
   res.render('interviews/Interview3');
 })
 
-// 'Interview4' Route
-app.get('/Interview4', function(req, res){
-  res.render('interviews/Interview4');
-})
-
-// 'Interview5' Route
-app.get('/Interview5', function(req, res){
-  res.render('interviews/Interview5');
-})
 
 // 'persona1' Route
 app.get('/Persona1', function(req, res){
