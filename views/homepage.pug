@@ -17,12 +17,12 @@ block content
 
         div(class="middlenav")
                 img(id='logo1' src='img/logo.png' alt='logo')
-                form(id="form1" role="search")
-                        input(type="search" id="query" name="q" placeholder="Search for Movies" aria-label="Search through site content")
-                        button 
+                form(id="form1", role="search")
+                        input(type="text", id="search", placeholder="Search for Movies", class="search")
+                        button(id="button")
                                 svg(viewBox="0 0 1024 1024")
                                         path(class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z")
-
+         
         div(class="about")
             h2 Product Description 
                 h3(id="VisionStatement") CineSearch is a user-friendly web app that allows for users to quickly find ratings for the most popular movies of today, the locations to view these productions, and direct links to watch them. 
@@ -44,3 +44,7 @@ block content
                 br
                 h3(id="VisionStatement") Isaiah Parker - I am the Project Manager for the team. I'm from Mt. Washington Kentucky and I'm studying at Bellarmine University for a degree in Computer Science. When not at school I'm either at work, or spending time with my family and friends. 
 
+        div(class="moviecategories")
+                header(class="main")
+                
+                script(src="js/search.js") 
