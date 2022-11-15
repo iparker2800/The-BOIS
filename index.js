@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const req = require('request');
+const request = require('request');
 const port = 3000;
 
 const app = express();
@@ -10,9 +10,15 @@ app.set('view engine', 'pug');
 
 app.use(express.static(path.join(__dirname, "public")));
 
+
 // 'Home' Route
 app.get('/', function(req, res){
   res.render('homepage');
+})
+
+// 'Results' Route
+app.get('/Results', (req, res)=>{
+  res.render('results')
 })
 
 // 'About' Route
