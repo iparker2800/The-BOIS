@@ -18,17 +18,11 @@ function returnMovies(movies) {
         const { poster_path, title} = movie;
 
         const chosen_movie = document.createElement("div");
-        chosen_movie.classList.add("movie");
+        chosen_movie.classList.add("searched-movie");
 
         chosen_movie.innerHTML = `
-            <img
-                class="movie"
-                src="${img_url + poster_path}"
-                alt="${title}"
-            />
-            <div class="movie-info">
-                <h3>${title}</h3>
-            </div>
+            <img class="searched-movie" src="${img_url + poster_path}" alt="${title}"/>
+            <p class="searched-movie-title">${title}</p>
         `;
 
         main.appendChild(chosen_movie);

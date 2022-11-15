@@ -305,11 +305,53 @@ svg {
 }
 
 .movie p{
+  overflow: hidden;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #000000;
+}
+
+.movie-title{
   color: rgb(226, 226, 88);
   text-transform: capitalize;
-  height: 20px;
-  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
+
+.searched-movie{
+  flex: 0 0 auto;
+  height: 600px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searched-movie img{
+  width: auto;
+  height: 500px;
+  object-fit: fill;
+  border-style: solid;
+  border-color: black;
+}
+
+.searched-movie p{
+  overflow: hidden;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #000000;
+}
+
+.searched-movie-title{
+  color: rgb(226, 226, 88);
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
 #featureheading{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
