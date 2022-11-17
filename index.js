@@ -122,6 +122,11 @@ app.get('/design_artifacts', function(req, res){
   res.render('design_artifacts');
 })
 
+// 'design artifacts' Route
+app.get('/design_documents', function(req, res){
+  res.render('architectural_design/design_documents');
+})
+
 
 
 // Start the server
@@ -129,4 +134,3 @@ app.listen(port, function() {
     console.log(`app listening on http://localhost:${port}`);
   })
 
-  
