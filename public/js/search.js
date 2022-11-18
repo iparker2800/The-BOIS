@@ -21,8 +21,10 @@ function returnMovies(movies) {
         chosen_movie.classList.add("searched-movie");
 
         chosen_movie.innerHTML = `
+        <div onclick="location.href = '/${title}'">
             <img class="searched-movie" src="${img_url + poster_path}" alt="${title}"/>
             <p class="searched-movie-title">${title}</p>
+        </div>
         `;
 
         main.appendChild(chosen_movie);

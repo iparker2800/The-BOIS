@@ -127,7 +127,9 @@ app.get('/design_documents', function(req, res){
   res.render('architectural_design/design_documents');
 })
 
-
+app.get('/:id', function(req, res){
+  res.render('chosen_movie');
+})
 
 // Start the server
 app.listen(port, function() {
