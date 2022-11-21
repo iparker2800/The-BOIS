@@ -2,6 +2,11 @@ extends Base_layout
  
 block content 
 
-    h1(id='featureheading') Chosen movie is #{title}
+    h1(id='chosenMovieHeading')
 
-    script(src="js/search.js")
+    div(class='moviePoster')
+
+    h2(class='watchLocation')
+    
+    script(src="js/TMDBapi.js")
+    script(src="js/chosen_movie.js")

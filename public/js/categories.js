@@ -1,8 +1,6 @@
 const main = document.querySelector('.main');
 
-fetch(genres_list_http + new URLSearchParams({
-    api_key: APIKEY
-}))
+fetch(genres_list)
 .then(res => res.json())
 .then(data => {
     data.genres.forEach(item => {
@@ -11,8 +9,7 @@ fetch(genres_list_http + new URLSearchParams({
 });
 
 const fetchMoviesListByGenres = (id, genres) => {
-    fetch(movie_genres_http + new URLSearchParams({
-        api_key: APIKEY,
+    fetch(movie_genres + new URLSearchParams({
         with_genres: id,
     }))
     .then(res => res.json())
@@ -48,7 +45,7 @@ const makeCards = (id, data) => {
         }
 
         movieContainer.innerHTML += `
-        <div class="movie" onclick="location.href = '/${item.title}'">
+        <div class="movie" onclick="location.href = '/${item.id}'">
             <img src="${img_url}${item.backdrop_path}" alt="${item.title}">
             <p class="movie-title">${item.title}</p>
         </div>
