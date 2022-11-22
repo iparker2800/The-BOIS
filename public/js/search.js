@@ -15,14 +15,16 @@ function returnMovies(movies) {
     main.innerHTML = "";
 
     movies.forEach((movie) => {
-        const { poster_path, title} = movie;
+        const { poster_path, title, id} = movie;
 
         const chosen_movie = document.createElement("div");
         chosen_movie.classList.add("searched-movie");
 
         chosen_movie.innerHTML = `
+        <div onclick="location.href = '/${id}'">
             <img class="searched-movie" src="${img_url + poster_path}" alt="${title}"/>
             <p class="searched-movie-title">${title}</p>
+        </div>
         `;
 
         main.appendChild(chosen_movie);

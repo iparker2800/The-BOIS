@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 const request = require('request');
+//const admin = require("firebase-admin");
+
 const port = 3000;
 
 const app = express();
@@ -10,7 +12,18 @@ app.set('view engine', 'pug');
 
 app.use(express.static(path.join(__dirname, "public")));
 
-
+/*
+const firebaseConfig = {
+  apiKey: "AIzaSyAh4HUzF_0OcsidZTqflTs2K1sjneF7gRw",
+  authDomain: "the-bois-1bd68.firebaseapp.com",
+  projectId: "the-bois-1bd68",
+  storageBucket: "the-bois-1bd68.appspot.com",
+  messagingSenderId: "268379744417",
+  appId: "1:268379744417:web:ade23a1a9c8eff0617e8e0",
+  measurementId: "G-E2PGRED24B"
+};
+admin.initializeApp(firebaseConfig);
+*/
 // 'Home' Route
 app.get('/', function(req, res){
   res.render('homepage');
@@ -127,7 +140,9 @@ app.get('/design_documents', function(req, res){
   res.render('architectural_design/design_documents');
 })
 
-
+app.get('/:id', function(req, res){
+  res.render('chosen_movie');
+})
 
 // Start the server
 app.listen(port, function() {
