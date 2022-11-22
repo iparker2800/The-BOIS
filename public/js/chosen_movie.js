@@ -13,6 +13,9 @@ function movieInfo(info){
 
     const moviePoster = document.querySelector('.moviePoster');
     moviePoster.innerHTML = `<img src="${img_url}${info.poster_path}" alt="${info.title}">`
+
+    const movieOverview = document.querySelector('.movieInfo');
+    movieOverview.innerHTML = `<p>${info.overview}</p>`
 }
 
 /*
