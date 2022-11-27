@@ -11,10 +11,14 @@ function movieInfo(info){
     const movieName = document.querySelector('#chosenMovieHeading')
     movieName.innerHTML = info.title;
 
-    const moviePoster = document.querySelector('.moviePoster');
-    moviePoster.innerHTML = `<img src="${img_url}${info.poster_path}" alt="${info.title}">`
+    const moviePoster = document.querySelector('.chosenMovie');
+    moviePoster.innerHTML = `
+    <img src="${img_url}${info.poster_path}" alt="${info.title}">
+    <div class="chosenMovieInfo">
+    </div>
+    `
 
-    const movieOverview = document.querySelector('.movieInfo');
+    const movieOverview = document.querySelector('.chosenMovieInfo');
     movieOverview.innerHTML = `<p>${info.overview}</p>`
 }
 

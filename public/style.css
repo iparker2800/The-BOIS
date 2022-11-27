@@ -512,14 +512,15 @@ a { text-decoration: none; }
   margin-right: 5%;
   color: rgb(255, 255, 255);
 }
-
-.moviePoster img{
+.chosenMovie {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.chosenMovie img{
   border-style: solid;
   border-color: black;
   box-sizing: border-box;
-  height: 65vh;
-  margin-top: 30px;
-  margin-left: 20px;
+  height: 75vh;
 
 }
 
@@ -532,18 +533,78 @@ a { text-decoration: none; }
   color: rgb(226, 226, 88);
 }
 
-.watchLocation{
-  text-shadow: 4px 4px 4px rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: right; 
-  text-transform: uppercase;
-  margin-top: 50px;
-  color: rgb(226, 226, 88);
-}
 
-.movieInfo{
+.chosenMovieInfo p{
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
-  margin-left: 20px;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.chosenMovieInfo{
+  width: 500px;
+  padding: 35px;
+  margin: 20px;
+  margin-left:80vh;
+  margin-top: -70vh;
+  border: 10px solid rgb(241, 44, 44);
+
+}
+
+.chosenMovieReview{
+  margin-top: 10%;
+  
+}
+
+.chosenMovieReview h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+#input{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#form3{
+  margin:auto;
+  width:50%;
+}
+
+
+#form3 textarea {
+  background-color: rgb(40, 40, 40);
+  color:aliceblue;
+  border-radius: 5px;
+  border-color: aliceblue;
+  margin: auto;
+  resize: none;
+
+}
+
+#form3 textarea:placeholder-shown{
+  color:aliceblue;
+  font-style: italic;
+}
+
+#form3 input{
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: rgb(241, 44, 44);
+  border: 1px solid;
+  border-color: #ddd #bbb #999;
+  cursor: pointer;
+  color: black;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: visible;
+  margin: auto;
+  text-align: center;
+  padding: 3px 10px;
+  width: 630px;
 }
