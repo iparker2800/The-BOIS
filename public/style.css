@@ -19,15 +19,6 @@ h1 {
   color: rgb(226, 226, 88);
 }
 
-#forthepeople{
-  text-shadow: 4px 4px 4px rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left; 
-  text-transform: uppercase;
-  margin-top: 5px;
-  margin-left: 20px;
-  color: rgb(226, 226, 88);
-}
 
 #Commercial{
   font-family: Arial, Helvetica, sans-serif;
@@ -58,19 +49,27 @@ h2{
 }
 
 .features{
-  margin-right: 200px;
-  margin-left: auto;
-  margin-top: 100px;
-  margin-bottom: 150px;
+  margin-left: 10vh;
+  margin-top: 200px;
+  width: 600px;
+}
 
+.features h2{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 75px;
+  font-size: 24px;
+  color: rgb(226, 226, 88);
 }
 
 .about {
-  margin-top: 200px;
-  margin-bottom: 50px;
+  margin-top: 20vh;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
   color: rgb(255, 255, 255);
+  text-align: left;
+  margin-bottom: 50px;
 }
 
 .webnots-notification-box {
@@ -80,46 +79,52 @@ h2{
   color: #ffffff;
   font-family: verdana, 'open sans', sans-serif;
   margin-bottom: 25px;
-  padding: 10px 14px 10px 44px;
+  padding: 35px 35px 40px 40px;
   position: relative;
   box-shadow: 0px 1px 5px #999;
+  font-size: 21px;
   }
 
 .webnots-notification-box:before {
   font-family: FontAwesome;
-  font-size: 21px;
+  font-size: 28px;
   left: 14px;
   position: absolute;
-  }
-  .webnots-information {
-  background-color: #3e3e3e;
-  width: 300px;
-  margin-left: 75px;
-  margin-right: auto;
-  }
-  .webnots-information:before {
-  content: "\f129";
-  margin-left: 4px;
-  }
-
-#logo1 { 
-  border-style: outset;
-  border-color: black;
-  max-width: 15%;
-  position: absolute;
-  margin-top: -5%;
-  margin-right: 750%;
-  margin-left: 75%;
 }
 
-#logo2 { 
+  .webnots-information {
+  background-color: #3e3e3e;
+  width: 52vh;
+  margin-left: 75px;
+
+}
+
+.webnots-information:before {
+  content: "\f129";
+  margin-left: 4px;
+}
+
+.homepagelogo{
+  margin-top: -450px;
+  margin-left: 115vh;
+}
+
+.homepagelogo img{
   border-style: outset;
   border-color: black;
-  max-width: 15%;
-  position: absolute;
-  margin-top: -5%;
-  margin-right: 750%;
-  margin-left: 75%;
+  width: 45vh;
+}
+
+.categorieslogo{
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: -150px;
+}
+
+.categorieslogo img{
+  width: 45vh;
+  border-style: outset;
+  border-color: black;
 }
 
 #TMDBlogo {
@@ -514,7 +519,7 @@ a { text-decoration: none; }
 }
 .chosenMovie {
   margin-top: 40px;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 .chosenMovie img{
   border-style: solid;
@@ -543,7 +548,7 @@ a { text-decoration: none; }
 }
 
 .chosenMovieInfo{
-  width: 500px;
+  width: 50vh;
   padding: 35px;
   margin: 20px;
   margin-left:80vh;
@@ -553,13 +558,14 @@ a { text-decoration: none; }
 }
 
 .chosenMovieReview{
-  margin-top: 10%;
-  
+  margin-top: 45vh;
+  text-align: center;
 }
 
 .chosenMovieReview h2 {
   font-size: 36px;
   text-align: center;
+  
 }
 
 #input{
@@ -607,4 +613,22 @@ a { text-decoration: none; }
   text-align: center;
   padding: 3px 10px;
   width: 630px;
+}
+
+#userReview{
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  color: rgb(226, 226, 88);
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+.displayMovieReview p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-left: 45px;
+  font-style: italic;
+  font-weight: bold;
 }

@@ -1,3 +1,12 @@
+/*
+* Bobby Gabriel
+* THE BOIS/Cinesearch
+* Software Development/Fall 2022
+*
+* This script displays the title, poster, and overview of a movie the user has selected
+* Used in chosen_movie.pug
+*/
+
 console.log(movie_details)
 
 fetch(movie_details)

@@ -1,4 +1,4 @@
-FROM node:16-bullseye-slim
+FROM node:16-alpine
 RUN mkdir /app && chown -R node:node /app
 WORKDIR /app
 USER node

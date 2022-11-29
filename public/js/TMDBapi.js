@@ -1,3 +1,12 @@
+/*
+* Bobby Gabriel
+* THE BOIS/Cinesearch
+* Software Development/Fall 2022
+*
+* This script contains all the TMDB API request urls and API key. These are used across every script. 
+* Used in categories.pug, chosen_movie.pug, and results.pug
+*/
+
 let chosen_movie_name = location.pathname;
 
 const APIKEY = '076f8ddce1b5e3eab478fe0eeeb71153';
