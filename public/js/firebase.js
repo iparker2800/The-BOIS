@@ -52,8 +52,6 @@ let currentChild = ' ';
 onValue(dbRef, (snapshot) => {
   snapshot.forEach((childSnapshot) => {
     let childData = childSnapshot.val();
-    console.log(childData);
-    console.log(childData.Review)
     currentChild += `
       <p> "${childData.Review} " </p>
     `
