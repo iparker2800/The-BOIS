@@ -27,9 +27,8 @@ CineSearch is aimed towards movie buffs who are in need of finding desirable fil
 ## Primary Features:
 
 * Read honest reviews about today's most popular films.
-* Effortlessly discover the location of your favorite movies.
-* View parents' testimonies about whether or not certain films are safe for children to watch.
-* Easy access to the films and shows you wish to watch via links to the primary streaming services.
+* Quickly find the most popular movies in any genre.
+* Use the search bar to effortlessly find the movie you're looking for.
 
 
 
@@ -45,6 +44,8 @@ movie genre preferences.
 ## Potential Future Features:
 * CineSearch creates a subscription plan for the biggest streaming services which enables you to watch
 	your favorite forms of entertainment at the lowest rate.
+* Direct links to available streaming services hosting desired movie
+* View parents' testimonies about whether or not certain films are safe for children to watch.
 	
 	
 	
