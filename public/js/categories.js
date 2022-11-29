@@ -1,3 +1,12 @@
+/*
+* Bobby Gabriel
+* THE BOIS/Cinesearch
+* Software Development/Fall 2022
+*
+* This script displays a list of all the most popular movies in every genre/category of film
+* Used in results.pug
+*/
+
 const main = document.querySelector('.main');
 
 fetch(genres_list)

@@ -4,11 +4,21 @@ block content
 
     h1(id='chosenMovieHeading')
 
-    div(class='moviePoster')
-        
-    div(class='movieInfo')
+    div(class='chosenMovie')
 
-    h2(class='watchLocation')
-    
+
+    div(class='chosenMovieReview')
+        form(id="form3", role="review")
+            h2 Leave a Review!
+            textarea(name="review", cols="90", rows="4", placeholder="Begin your review", class="message") 
+            input(type="submit" placeholder="Begin your review" class="submitForm")
+
+
+    h2(id="userReview") User Reviews
+    div(class="displayMovieReview")
+
+
     script(src="js/TMDBapi.js")
     script(src="js/chosen_movie.js")
+    script(type="module" src="js/firebase.js")
+    //script(src="js/submit_review.js")

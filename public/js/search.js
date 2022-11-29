@@ -1,3 +1,12 @@
+/*
+* Bobby Gabriel
+* THE BOIS/Cinesearch
+* Software Development/Fall 2022
+*
+* This script handles requests made in the search bar. Will return every movie related to the user input. 
+* Used in results.pug
+*/
+
 const main = document.getElementById("content");
 const form2 = document.getElementById("form2");
 const search = document.getElementById("search");
