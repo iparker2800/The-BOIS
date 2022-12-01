@@ -632,3 +632,20 @@ a { text-decoration: none; }
   font-style: italic;
   font-weight: bold;
 }
+
+.designArtifacts{
+  text-align: center;
+}
+.designArtifacts img{
+  width: 50%
+}
+.designArtifacts a{
+  color: rgb(241, 44, 44);
+}
+
+.list{
+  text-shadow:none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  color: rgb(255, 255, 255);
+}

@@ -30,22 +30,3 @@ function movieInfo(info){
     const movieOverview = document.querySelector('.chosenMovieInfo');
     movieOverview.innerHTML = `<p>${info.overview}</p>`
 }
-
-/*
-console.log(where_to_watch)
-fetch(where_to_watch)
-.then(res => res.json())
-.then(data => {
-    console.log(data)
-    streamingServices(data)
-})
-
-
-function streamingServices(data){
-    const serviceProvider = document.querySelector('.watchLocation')
-    serviceProvider.innerHTML = Object.values(data.results.CA.rent);
-
-    const serviceProviderLogo = document.querySelector('.moviePoster');
-    moviePoster.innerHTML = `<img src="${img_url}${data.poster_path}" alt="${data.title}">`
-}
-*/
