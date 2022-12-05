@@ -7,7 +7,6 @@
 * Used in chosen_movie.pug
 */
 
-console.log(movie_details)
 
 fetch(movie_details)
 .then(res => res.json())

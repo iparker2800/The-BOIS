@@ -13,7 +13,6 @@ import { getDatabase, ref, push, onValue } from "https://www.gstatic.com/firebas
 
 
 // My web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAh4HUzF_0OcsidZTqflTs2K1sjneF7gRw",
   authDomain: "the-bois-1bd68.firebaseapp.com",
@@ -37,7 +36,7 @@ const postsRef = ref(db, `${chosen_movie_id}`);
 const dbRef = ref(db, `${chosen_movie_id}`);
 
 
-
+// submit the review on click
 submitForm.addEventListener('click', (e) => {
     e.preventDefault();
     push(postsRef, {Review: message.value})
