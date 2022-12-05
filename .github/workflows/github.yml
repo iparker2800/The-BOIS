@@ -18,13 +18,4 @@ jobs:
   build_and_deploy:
     runs-on: windows-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v2
-      - name: Node Build
-        shell: pwsh
-        run: npm install && ./dist.ps1
-      - name: Uploading Artifacts  
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist-master
-          path: dist
+      - run: echo "N/A"

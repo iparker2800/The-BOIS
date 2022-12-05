@@ -3,3 +3,23 @@ extends Base_layout
 block content 
 
     h1(id='featureheading') Design Documents
+    div(class="designArtifacts")
+        img(src='img/SoftwareArchitectureDiagram.png' alt='logo')
+        h2 User interface
+            ul(class="list")
+                li Homepage – Has the product vision, description, intended audience, about the team, and a link to our product commercial. 
+                li Categories - Allows the user to scroll through different movies and categories. 
+                li Design Artifacts – Links to interviews, persons, user stories, scenarios, and features (each one has its own page).
+                li Search Page – Allows the user to search for any movie. 
+        h2 Application Code
+            ul(class="list")
+                li Categories.js - This handles the ADI request to fetch all movies categories and all movies inside those categories (this goes with our categories user interface part). 
+                li Search.js - This handles the user input to fetch movies using the API.
+                li TMDBapi.js - This contains the API key and the general API searches to use with the first two scripts .
+                li FireBase.js - This handles the user reviews and interacts with the firebase realtime database.
+                li chosen_movie.js - This handle displaying the title, poster, and overview of a given movie.
+        h2 Application API
+            ul(class="list")
+                li All API requests are handled by 
+                    a(id="TheMovieDB", href="https://www.themoviedb.org") TheMovieDB 
+            
